@@ -1,0 +1,9 @@
+BLACKSPIRE - LOGIN PAGE REMOVED
+
+The opening login screen is gone. The website now opens straight on the home page.
+Removed: login markup in index.html, intro.js, api/login.js, the login/intro CSS,
+and the /api/login route + "Logins" sheet in server.py.
+Everything else (pages, ventures, contact form, logo, animations) is unchanged.
+
+Deploy: replace the files in your GitHub repo with this ZIP (and delete intro.js and
+api/login.js from the repo), commit, then redeploy in Vercel. Hard-refresh the browser.
